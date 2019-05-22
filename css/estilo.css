@@ -1,0 +1,84 @@
+
+ a img{
+	height: 100px;
+	width:100px;
+}
+
+#filmes img{
+	height: 80%;
+	width:80%;
+	border-radius: 5px;
+	padding-left: 15px;
+}
+
+body, html, #home{ 
+
+	height: 100%;
+
+}
+
+#body{
+	background-image:url("../imagens/fundooficial.png");
+	background-repeat: repeat-x repeat-y;
+
+
+}
+
+#logo span{
+	font-size: 40px;
+	text-align: center;
+	color:#1eab6d;
+}
+
+.fixed-top{
+	margin-top:10px;
+}
+
+.nav-link{
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+
+.container-fluid{
+	margin-bottom:-20px;
+	margin-top:-15px;
+	opacity: .95
+}
+
+.modal-content{
+
+	box-shadow: 0px 0px 3px #848484;
+	color:white;
+	background: rgba(0,0,0,0.9)
+}
+
+.navbar-brand{
+	margin-bottom:6px;
+	
+}
+
+.btn{
+	border-radius: 5px;
+	background-color: #1eab6d;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+/*.navbar-dark .navbar-nav .nav-link{
+	color:black;
+}
+*/
+
+#filmes .box{
+
+	width: 300px;
+	height: 300px;
+
+	border-radius: 5px;
+}
+
+#filmes{
+	margin-top: 200px;
+	position: relative;
+	background: rgba(0,0,0,0.9);
+}
