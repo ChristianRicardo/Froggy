@@ -15,7 +15,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
-<body id="body">
+<body id="body" class="borda">
 	<header class="borda">               <!-- inicio cabeçalho -->
 		<nav class="navbar navbar-dark  navbar-expand-md fixed-top modal-content">
 			<div class="container-fluid">
@@ -30,17 +30,17 @@
 
 					<ul class= "nav navbar-nav m-auto">
 							<li class="nav-item">
-							<a href="filmes.html" class="nav-link">Filmes</a>
+							<a href="" class="nav-link">Filmes</a>
 						</li>
 						<li class="nav-item">
-							<a href="series.html" class="nav-link">Séries</a>
+							<a href="" class="nav-link">Séries</a>
 						</li>
 						<li class="nav-item">
-							<a href="series.html" class="nav-link">Mais acessados</a>
+							<a href="" class="nav-link">Mais acessados</a>
 						</li>
 					</ul>
 
-					<form class="form-inline">
+					<form class="form-inline d-none d-md-block">
 					<input class="form-control" placeholder="Busque seu filme:" type="text" name="">
 					<button class="btn">
 						<ion-icon name="search"></ion-icon>
@@ -53,9 +53,10 @@
 						<li class="nav-item">
 							<a href="login.html" class="nav-link btn">Entrar</a>
 						</li>
-						<li class="nav-item">
-							<a href="cadastro.html" class="nav-link">Cadastro</a>
-						</li>
+
+						<!--<li class="nav-item">
+							<a href="" class="nav-link">Cadastro</a>
+						</li> -->
 					</ul>
 
 						
@@ -90,22 +91,48 @@
 
 
 		
-	<section id="filmes" class="borda d-flex">
-		<div class=" container d-flex justify-content-center align-items-center">
-			<div class="box">
+	<section class=" filmes borda col-md-12 d-flex container-fluid">
+		<div class=" limite col-sm-6 borda col-md-12  ">
+
+
+			<div class="row ">
+			<div class="box  littlecontainer col-md-12 col-sm-12">
 				<img src="imagens/filme1.png">
+		
+				<p class="sinopse borda col-md-8">Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a armadura e a utiliza para combater o crime.</p>
+
+				
+		
+				</div>
+				
+				</div>
+
+
+			<div class="row">
+			<div class="box littlecontainer col-md-12 col-sm-12">
+				<img  src="imagens/filme2.jpg">
+
+				<p class="sinopse col-md-8">Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre pressão de todos os lados para compartilhar sua tecnologia com as forças armadas. Ele resiste para divulgar os segredos de sua inigualável armadura, com medo de que estas informações caiam nas mãos erradas. Com a bela Pepper Potts e o amigo "Rhodey" Rhodes ao seu lado, Tony precisa forjar novas alianças e confrontar um inimigo poderoso.</p>
+
+				
+				
 				
 			</div>
-			<div class="box">
-				<img src="imagens/filme2.jpg">
-				
-			</div>
-			<div class="box">
-				<img src="imagens/filme3.jpg">
+		</div>
+
+
+			<div class="row">
+			<div class=" box littlecontainer col-md-12 col-sm-12">
+				<img  src="imagens/filme3.jpg">
+
+				<p class="sinopse col-md-8">Depois de um inimigo reduzir o mundo de Tony Stark a destroços, o Homem de Ferro precisa aprender a confiar em seus instintos para proteger aqueles que ama, especialmente sua namorada, e lutar contra seu maior medo: o fracasso.</p>
+
+			
 				
 			</div>
 			
 		</div>
+	</div>
 
 	</section>
 
